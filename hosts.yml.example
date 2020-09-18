@@ -1,0 +1,10 @@
+servers:
+  vars:
+    ssh_keys:
+      - /Users/user/.ssh/id_rsa1.pub
+      - /Users/user/.ssh/id_rsa2.pub
+      - /Users/user/.ssh/id_rsa3.pub
+  hosts:
+    server-1:
+    server-2:
+    server-3:

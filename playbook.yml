@@ -1,0 +1,8 @@
+- hosts: servers
+  tasks:
+  - name: Set /root/.ssh/authorized_keys
+    authorized_key:
+      user: root
+      state: present
+      key: "{{ lookup('file', '{{ item }}') }}"
+    with_items: "{{ ssh_keys }}"
