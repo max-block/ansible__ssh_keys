@@ -6,5 +6,6 @@ servers:
       - /Users/user/.ssh/id_rsa3.pub
   hosts:
     server-1:
-    server-2:
-    server-3:
+      ansible_host: 123.123.123.123
+      ansible_user: root
+      ansible_password: XS6Y7n6VyCdUrVWVx
