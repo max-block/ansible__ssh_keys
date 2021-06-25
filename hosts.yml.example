@@ -8,4 +8,4 @@ servers:
     server-1:
       ansible_host: 123.123.123.123
       ansible_user: root
-      ansible_password: XS6Y7n6VyCdUrVWVx
+      ansible_password: secret
